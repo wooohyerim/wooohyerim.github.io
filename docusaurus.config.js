@@ -79,12 +79,25 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
+            type: "docSidebar",
+            sidebarId: "feSidebar",
+            position: "left",
+            label: "FE공부",
           },
+          {
+            type: "docSidebar",
+            sidebarId: "recordSidebar",
+            position: "left",
+            label: "회고",
+          },
+
+          // { to: "/blog", label: "Blog", position: "left" },
+          // {
+          //   href: "https://github.com/facebook/docusaurus",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
         ],
       },
       footer: {
