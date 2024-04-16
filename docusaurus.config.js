@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "👀",
+  title: " 👀 WOO LOG",
   tagline: "기록하는 공간",
   favicon: "img/favicon.ico",
 
@@ -73,12 +73,6 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          // {
-          //   type: "docSidebar",
-          //   sidebarId: "tutorialSidebar",
-          //   position: "left",
-          //   label: "Tutorial",
-          // },
           {
             type: "docSidebar",
             sidebarId: "feSidebar",
@@ -91,8 +85,6 @@ const config = {
             position: "left",
             label: "회고",
           },
-
-          // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/wooohyerim",
             label: "GitHub",
