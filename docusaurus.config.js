@@ -66,6 +66,12 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
+      metadata: [
+        {
+          name: "google-site-verification",
+          content: "TLu7U51NCgmkUNs8W8BIRLSyPZrYiLl91UbG2P_Kb7I",
+        },
+      ],
       navbar: {
         title: "WOO",
         logo: {
