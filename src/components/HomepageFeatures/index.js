@@ -4,31 +4,39 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
+    title: "Frontend",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <h4>프론트엔드 개발자 우혜림입니다!</h4>{" "}
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Communication",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <ul style={{ display: "flex" }}>
+          <li style={{ fontSize: "14px" }}>
+            PM, 디자이너, 백엔드개발자와{" "}
+            <span style={{ fontWeight: "bold" }}>소통</span>하며 협업
+          </li>
+        </ul>
       </>
     ),
   },
   {
-    title: "Powered by React",
+    title: "Skills",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        <code>React</code>를 중심으로 학습하고 있습니다.
+        <code>HTML/CSS</code>&nbsp;<code>Javascript</code>&nbsp;
+        <code>React</code>&nbsp;
+        <code>Next.js</code>&nbsp;<code>Sass</code>&nbsp;
+        <code>Tailwindcss</code>&nbsp;
+        <code>styled-components</code>&nbsp;<code>zustand</code>&nbsp;
+        <code>recoil</code>
       </>
     ),
   },
