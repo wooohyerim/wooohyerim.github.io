@@ -89,17 +89,18 @@ const config = {
             position: "left",
             label: "FE공부",
           },
-          {
-            type: "docSidebar",
-            sidebarId: "studySidebar",
-            position: "left",
-            label: "STUDY",
-          },
+
           {
             type: "docSidebar",
             sidebarId: "recordSidebar",
             position: "left",
             label: "회고",
+          },
+          {
+            type: "docSidebar",
+            sidebarId: "studySidebar",
+            position: "left",
+            label: "항해 STUDY",
           },
           {
             href: "https://github.com/wooohyerim",
