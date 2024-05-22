@@ -1,10 +1,10 @@
 {
-  "label": "Next-Challenge",
-  "position": 2,
+  "label": "STUDY",
+  "position": 1,
   "collapsible": true,
   "collapsed": false,
   "link": {
     "type": "generated-index",
-    "description": "Next-Challenge"
+    "description": "STUDY"
   }
 }

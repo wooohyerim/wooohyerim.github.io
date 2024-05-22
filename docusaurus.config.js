@@ -91,9 +91,9 @@ const config = {
           },
           {
             type: "docSidebar",
-            sidebarId: "tilSidebar",
+            sidebarId: "studySidebar",
             position: "left",
-            label: "TIL",
+            label: "STUDY",
           },
           {
             type: "docSidebar",
