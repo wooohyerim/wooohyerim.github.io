@@ -91,6 +91,12 @@ const config = {
           },
           {
             type: "docSidebar",
+            sidebarId: "tilSidebar",
+            position: "left",
+            label: "TIL",
+          },
+          {
+            type: "docSidebar",
             sidebarId: "recordSidebar",
             position: "left",
             label: "회고",
