@@ -9,7 +9,7 @@ const FeatureList = [
     emoji: "💻",
     description: (
       <>
-        <h4>프론트엔드 개발자</h4>{" "}
+        <h4 style={{ textAlign: "center" }}>프론트엔드 개발자</h4>{" "}
       </>
     ),
   },
@@ -41,7 +41,7 @@ const FeatureList = [
     // Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     emoji: "💻",
     description: (
-      <>
+      <div style={{ textAlign: "center" }}>
         <code>HTML/CSS</code>&nbsp;<code>Javascript</code>&nbsp;
         <code>React</code>&nbsp;
         <code>Next.js</code>&nbsp;<code>Sass</code>&nbsp;
@@ -51,7 +51,7 @@ const FeatureList = [
         <code>Git/Github</code>&nbsp;
         <code>Slack</code>&nbsp;
         <code>Notion</code>&nbsp;
-      </>
+      </div>
     ),
   },
 ];
@@ -63,8 +63,10 @@ function Feature({ Svg, title, description, emoji }) {
         {/* <Svg className={styles.featureSvg} role="img" /> */}
         <h1>{emoji}</h1>
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h2">{title}</Heading>
+      <div className="padding-horiz--md">
+        <div className="text--center">
+          <Heading as="h2">{title}</Heading>
+        </div>
         <p> {description}</p>
       </div>
     </div>
