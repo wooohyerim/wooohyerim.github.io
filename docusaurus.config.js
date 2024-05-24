@@ -77,11 +77,11 @@ const config = {
         },
       ],
       navbar: {
-        title: "WOO",
-        logo: {
-          alt: "WOO's Log",
-          src: "img/logo.svg",
-        },
+        title: "WooLog",
+        // logo: {
+        //   alt: "WOO's Log",
+        //   src: "img/logo.svg",
+        // },
         items: [
           {
             type: "docSidebar",
