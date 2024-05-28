@@ -87,7 +87,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "feSidebar",
             position: "left",
-            label: "FE공부",
+            label: "FE",
           },
 
           {
