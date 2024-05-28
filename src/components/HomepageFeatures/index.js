@@ -6,7 +6,7 @@ const FeatureList = [
   {
     title: "Developer",
     // Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    emoji: "💻",
+    emoji: "🙇🏻‍♀️",
     description: (
       <>
         <h4 style={{ textAlign: "center" }}>프론트엔드 개발자</h4>{" "}
@@ -15,27 +15,28 @@ const FeatureList = [
   },
   {
     title: "Intro",
-    emoji: "👩🏻‍💻",
+    emoji: "🌱",
     // Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <p style={{ fontSize: "14px", fontWeight: "bold" }}>
-            어제보다 오늘, 혼자보다 함께 성장하는 것을 좋아하는 프론트엔드
-            개발자 우혜림 입니다!
+          <p
+            style={{
+              fontSize: "14px",
+              fontWeight: "bold",
+              textAlign: "center",
+            }}
+          >
+            학습한 내용과 과정을 기록하는 공간입니다 👀
           </p>
-          <p style={{ fontSize: "14px", fontWeight: "bold" }}>
-            질문하는 것을 두려워하지 않고, 자신의 생각을 어떻게 잘 전달할지
-            고민합니다.
-          </p>
-
-          {/* <p style={{ fontSize: "14px" }}>
-            스타트업 근무로 기획자, 디자이너, 백엔드 개발자와 협업하며
-            커뮤니케이션 경험을 쌓았습니다.
-          </p>
-          <p style={{ fontSize: "14px" }}>
-            사용자에게 편의성을 제공하는 개발자가 되는 것을 목표로 하고
-            있습니다.
+          {/* <p
+            style={{
+              fontSize: "14px",
+              fontWeight: "bold",
+              textAlign: "center",
+            }}
+          >
+            프로젝트, 스터디를 회고합니다!
           </p> */}
         </div>
       </>
@@ -44,9 +45,9 @@ const FeatureList = [
   {
     title: "Skill",
     // Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
-    emoji: "💻",
+    emoji: "⚒️",
     description: (
-      <div style={{ textAlign: "center" }}>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: "4px" }}>
         <code>HTML/CSS</code>&nbsp;<code>Javascript</code>&nbsp;
         <code>React</code>&nbsp;
         <code>Next.js</code>&nbsp;<code>Sass</code>&nbsp;

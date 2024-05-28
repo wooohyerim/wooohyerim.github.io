@@ -9,7 +9,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: " 👀 WOO LOG",
-  tagline: "기록하는 공간",
+  // tagline: "기록하는 공간",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
